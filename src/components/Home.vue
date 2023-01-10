@@ -1,5 +1,6 @@
 <template>
        <div id="home">
+        <body id="picture" background="https://i.postimg.cc/6pzQ5dtp/01.jpg">
         <h2><ins>Home</ins></h2>
         <center>
         <div class="wrapper">
@@ -22,7 +23,8 @@
             <p class="lead text-dark">Hello, My name is Mogamad Imraan Bernksen</p>
         </div>
       </center>
-    </div>
+      </body>
+  </div>
 </template>
 <script>
 export default {

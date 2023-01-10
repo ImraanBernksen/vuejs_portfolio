@@ -123,9 +123,9 @@ h4 {
     padding-bottom: 20px;
 }
 
-#contact, #social-media, #copyright {
+/* #contact, #social-media, #copyright {
     color: white;
-}
+} */
 
 .wrapper {
     min-height: 90vh;
@@ -219,7 +219,7 @@ h4 {
 
 #imo {
     display: block;
-    color: white;
+    /* color: white; */
 }
 
 @media screen and (min-width:300px) {

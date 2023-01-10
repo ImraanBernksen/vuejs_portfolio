@@ -16,14 +16,13 @@
       <div class="col-lg-6 p-5">
           <h4>Education</h4>
           <p class="lead text-dark about-par">
-          School Attended: Oaklands High<br>
-           Grade Obtained: Graduated Grade 12 in 2020<br>
-           Studies: Life Choices Academy (currently enrolled) - since September 2022 <br>
-           Certifications: <br>
-           Grasshopper Coding Fundamentals I - March 2022<br>
-           Grasshopper Coding Fundamentals II - March 2022<br>
-           Responsive Web Design Developer Certification -  March 2022<br>
-           JavaScript  Algorithms and Data Structures Certification - June 2022<br>
+            School Attended: Oaklands High<br>
+            Grade Obtained: Graduated Grade 12 in 2020<br>
+            Certifications: <br>
+            Grasshopper Coding Fundamentals I & II - March 2022<br>
+            Responsive Web Design Developer Certification -  March 2022<br>
+            JavaScript  Algorithms and Data Structures Certification - June 2022<br>
+            Studies: Life Choices Coding Academy (currently enrolled) - September 2022 <br>
           </p>
       </div>
   </div>
