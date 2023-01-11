@@ -18,7 +18,11 @@
               </div>
             </div>
           </div>
-            <p class="lead text-dark text-center">Hello, My name is Mogamad Imraan Bernksen</p>
+            <p class="lead text-dark text-center" id="myName">Hello, My name is Mogamad Imraan Bernksen</p>
+          <div class="home_extra">
+            <a download href="../assets/Imraan's CV.docx" class="btn btn-dark text-white">Download CV</a>
+            <a href="/about" class="btn btn-dark text-white">More info</a>
+          </div>
         </div>
   </div>
 </template>

@@ -173,6 +173,7 @@ h4 {
     height:500px;
     perspective: 1000px;
     border-radius: 50%;
+    margin: auto;
 }
   
 .flip-box-inner {
@@ -218,8 +219,20 @@ h4 {
     padding-top: 10px;
 }
 
+#myName {
+    padding-top: 30px;
+}
+
+.home_extra {
+    text-align: center;
+}
+
 .form-label {
     padding-top: 10px;
+}
+
+#home {
+    background-color: aqua;
 }
 
 @media screen and (min-width:300px) {
