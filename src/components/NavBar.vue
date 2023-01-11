@@ -1,12 +1,4 @@
 <template>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/resume">Resume</router-link> |
-    <router-link to="/projects">Projects</router-link> |
-    <router-link to="/testimonials">Testimonials</router-link> |
-    <router-link to="/contact">Contact</router-link>
-  </nav> -->
 <nav class="menu">
     <ul class="menu-list">
       <nav class="navbar navbar-expand-lg navbar navbar-light bg-black static-top">
@@ -22,9 +14,6 @@
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" id="about_" href="/about">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="projects_" href="/resume">Resume</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" id="skills_" href="/projects">Projects</a>

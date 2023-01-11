@@ -6,11 +6,11 @@
        <form name="contact-form" action="https://formspree.io/f/xwkzrbbv" method="POST">
        <div class="row mx-4">
            <div class="col-6">
-             <label for="name" class="form-label">Name:</label>
+             <label for="name">Name:</label>
              <input type="text" name="name" class="form-control" placeholder="Name" aria-label="Name">
            </div>
            <div class="col-6">
-               <label for="name" class="form-label">Surname:</label>
+               <label for="name">Surname:</label>
              <input type="text" name="name" class="form-control" placeholder="Surname" aria-label="Surname">
            </div>
            <div class="col-6">
@@ -26,7 +26,7 @@
                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" placeholder="Write something..." rows="3"></textarea>
              </div>
              <div class="mx-auto">
-             <button type="submit" class="btn btn-outline-light">Submit</button>
+             <button type="submit" class="btn btn-outline-dark">Submit</button>
             </div>
             </div>
        </form>

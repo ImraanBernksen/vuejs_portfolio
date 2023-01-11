@@ -1,6 +1,6 @@
 <template>
        <div id="skills">
-       <h2><ins>Skills</ins></h2>
+       <h2><ins>Resume</ins></h2>
 <div class="container-fluid">
   <div class="row">      
       <div class="col-lg-7">
@@ -10,23 +10,15 @@
           </p>        
      </div>
       <div class="col-lg-5">
-          <h4>Skill Level</h4>
-          <i id="imo" class="fa-brands fa-html5 fa-2x"></i><p class="text-white"></p>
-          <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <i id="imo" class="fa-brands fa-css3 fa-2x"></i><p class="text-white"></p>
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <i id="imo" class="fa-brands fa-bootstrap fa-2x"></i><p class="text-white"></p>
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <i id="imo" class="fa-brands fa-square-js fa-2x"></i><p class="text-white"></p>
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
+          <h4>Education</h4>
+          <p class="lead text-dark about-par">
+            School Graduated: Oaklands High from 2016-2020<br>
+            Certifications: <br>
+            Grasshopper Coding Fundamentals I & II - March 2022<br>
+            Responsive Web Design Developer Certification -  March 2022<br>
+            JavaScript  Algorithms and Data Structures Certification - June 2022<br>
+            Studies: Life Choices Coding Academy (currently enrolled) - September 2022 <br>
+          </p>
       </div>
   </div>
 </div>

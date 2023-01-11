@@ -41,7 +41,7 @@ a:active {
     background-color: var(--activeLink);
 }
 
-h1, .menu-list {
+h2 {
     font-family: 'Gemunu Libre', sans-serif;
 }
 
@@ -71,8 +71,8 @@ header {
 }
   
 .menu-list {
-    list-style: none;
     font-family: 'Gemunu Libre', sans-serif;
+    list-style: none;
     font-size: 30px;
 }
 
@@ -123,13 +123,8 @@ h4 {
     padding-bottom: 20px;
 }
 
-/* #contact, #social-media, #copyright {
-    color: white;
-} */
-
 .wrapper {
     min-height: 90vh;
-    align-content: center;
 }
 .wrapper img{
     display: block;
@@ -206,20 +201,25 @@ h4 {
     transform: rotateY(180deg);
     border-radius: 50%;
     padding-top: 225px;
+    text-align: center;
 }
 
 #picture {
     background-attachment: fixed;
 }
 
-#M1I0B_ {
+#bernk {
     padding: 0 5px;
     text-decoration: none;
 }
 
 #imo {
     display: block;
-    /* color: white; */
+    padding-top: 10px;
+}
+
+.form-label {
+    padding-top: 10px;
 }
 
 @media screen and (min-width:300px) {
