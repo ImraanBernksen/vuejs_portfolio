@@ -1,8 +1,8 @@
 <template>
     <div id="testimonial">
         <h2><ins>Testimonials</ins></h2>
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); margin: auto;">
-            <div class="card h-100" v-for="item in arr" :key="item" style="width: 30rem; grid-column: span 1; margin: auto;">
+        <div class="row">
+            <div class="card" id="cards_" v-for="item in arr" :key="item" style="height: 36rem; width: 30rem; margin: auto;">
               <img :src="item.imgSrc" loading="lazy" class="card-img-top" alt="pic1">
               <div class="card-body">
                 <h4 class="card-title text-dark">{{item.personName}}</h4>
@@ -54,6 +54,6 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
     
 </style>

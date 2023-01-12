@@ -35,7 +35,7 @@
     <br>
     <div class="info">
       <p class="text-dark lead">
-        Cellphone Number: 0681278921<br>
+        Cellphone: 0681278921<br>
         Gmail: imraanbernksen@gmail.com<br>
       </p>
       </div>
@@ -54,6 +54,6 @@ export default {
     name: 'ContactForm'
 }
 </script>
-<style>
+<style scoped>
     
 </style>

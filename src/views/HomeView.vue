@@ -1,7 +1,9 @@
 <template>
+  <main>
   <NavBar/>
   <Home/>
   <Footer/>
+  </main>
 </template>
 <script>
 import NavBar from '../components/NavBar.vue';
@@ -17,5 +19,5 @@ export default {
 }
 </script>
 <style scoped>
-  
+
 </style>

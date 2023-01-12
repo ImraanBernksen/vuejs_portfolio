@@ -1,7 +1,9 @@
 <template>
+    <main>
     <NavBar/>
     <ContactForm/>
     <Footer/>
+    </main>
   </template>
   <script>
   import NavBar from '../components/NavBar.vue';

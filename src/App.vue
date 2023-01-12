@@ -18,7 +18,7 @@
 :root {
     --primaryColor: blue;
     --secondaryColor: black;
-    --alternativeColor: blue;
+    --alternativeColor: black;
     --mainBoxShadow: .5vw .5vw .5vw var(--alternativeColor);
     --landingPage : .5vw 1vw .5vw var(--gray);
     --activeLink: lime;
@@ -60,6 +60,7 @@ header {
 
 .logo {
     width: 2em;
+    border-radius: 50%;
 }
 
 .menu {
@@ -73,21 +74,21 @@ header {
 .menu-list {
     font-family: 'Gemunu Libre', sans-serif;
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h1, h2, h3, h5, h6 {
     text-align: center;
     padding-bottom: 20px;
     padding: 20px;
-    color: blue;
+    color: black;
 }
 
 h4 {
     text-align: center;
     padding-bottom: 20px;
     padding: 20px;
-    color: gold;
+    color: darkblue;
 }
 
 #about {
@@ -207,9 +208,11 @@ h4 {
 
 #picture {
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
-#bernk {
+#M1I0B_ {
     padding: 0 5px;
     text-decoration: none;
 }
@@ -231,9 +234,24 @@ h4 {
     padding-top: 10px;
 }
 
-#home {
-    background-color: aqua;
+#cards_ {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
 }
+
+#btn_ {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1px 5px;
+}
+
+/* main {
+    background: url(https://i.postimg.cc/FRk6kst9/wallpaper3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
 
 @media screen and (min-width:300px) {
     body {

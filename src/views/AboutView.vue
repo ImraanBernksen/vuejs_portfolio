@@ -1,8 +1,10 @@
 <template>
+  <main>
   <NavBar/>
-  <About/>
   <Resume/>
+  <About/>
   <Footer/>
+  </main>
 </template>
 <script>
 import NavBar from '../components/NavBar.vue';

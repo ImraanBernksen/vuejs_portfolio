@@ -1,9 +1,9 @@
 <template>
 <nav class="menu">
     <ul class="menu-list">
-      <nav class="navbar navbar-expand-lg navbar navbar-light bg-black static-top">
+      <nav class="navbar navbar-expand-lg navbar navbar-light static-top">
         <div class="container-fluid">
-          <img class="logo" src="https://i.postimg.cc/bwMSp4tp/BLACK-M1-I0-B-LOGO.jpg" alt="logo">
+          <img class="logo" src="https://i.postimg.cc/L40McznY/logo.png" alt="logo">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon bg-light"></span>
                     </button>

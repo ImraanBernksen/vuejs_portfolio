@@ -8,6 +8,6 @@ export default {
     name: 'Footer'
 }
 </script>
-<style>
+<style scoped>
     
 </style>

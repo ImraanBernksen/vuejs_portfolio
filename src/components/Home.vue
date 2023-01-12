@@ -10,17 +10,17 @@
               </div>
               <div class="flip-box-back" id="img-fluid">
                 <p>HELLO, WELCOME TO MY PORTFOLIO</p>
-                <a id="bernk" target="_blank" href="https://www.instagram.com/imraanbernksen" class="fa-brands fa-instagram"></a>
-                <a id="bernk" target="_blank" href="https://www.youtube.com/channel/UCSPsMgF3JVcXGRjXDwGBNaQ" class="fa-brands fa-youtube"></a>
-                <a id="bernk" target="_blank" href="https://www.tiktok.com/@imraanbernksen" class="fa-brands fa-tiktok"></a>
-                <a id="bernk" target="_blank" href="https://codepen.io/IMRAANBERNKSEN" class="fa-brands fa-codepen"></a>
-                <a id="bernk" target="_blank" href="https://github.com/ImraanBernksen" class="fa-brands fa-github"></a>
+                <a id="M1I0B_" target="_blank" href="https://www.instagram.com/imraanbernksen" class="fa-brands fa-instagram"></a>
+                <a id="M1I0B_" target="_blank" href="https://www.youtube.com/channel/UCSPsMgF3JVcXGRjXDwGBNaQ" class="fa-brands fa-youtube"></a>
+                <a id="M1I0B_" target="_blank" href="https://www.tiktok.com/@imraanbernksen" class="fa-brands fa-tiktok"></a>
+                <a id="M1I0B_" target="_blank" href="https://codepen.io/IMRAANBERNKSEN" class="fa-brands fa-codepen"></a>
+                <a id="M1I0B_" target="_blank" href="https://github.com/ImraanBernksen" class="fa-brands fa-github"></a>
               </div>
             </div>
           </div>
             <p class="lead text-dark text-center" id="myName">Hello, My name is Mogamad Imraan Bernksen</p>
           <div class="home_extra">
-            <a download href="../assets/Imraan's CV.docx" class="btn btn-dark text-white">Download CV</a>
+            <a href="../assets/Imraan's CV.docx" download target="_blank" class="btn btn-dark text-white">Download CV</a>
             <a href="/about" class="btn btn-dark text-white">More info</a>
           </div>
         </div>
@@ -31,6 +31,6 @@ export default {
     name: 'Home'
 }
 </script>
-<style>
+<style scoped>
  
 </style>
