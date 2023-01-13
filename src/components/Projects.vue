@@ -6,9 +6,9 @@
       <div class="card h-100" id="cards_" v-for="item in arr" :key="item" style="width: 30rem; margin: auto;">
         <img :src="item.imgSrc" loading="lazy" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">{{item.projectName}}</h5>
-          <a :href="item.linkOne" target="_blank" class="btn btn" id="btn_">GitHub</a>
-          <a :href="item.linkTwo" target="_blank" class="btn btn" id="btn_" >Netlify</a>
+          <h5 class="card-title text-dark">{{item.projectName}}</h5>
+          <a :href="item.linkOne" target="_blank" class="btn btn text-dark" id="btn_">GitHub</a>
+          <a :href="item.linkTwo" target="_blank" class="btn btn text-dark" id="btn_">Netlify</a>
         </div>
       </div>
     </div>

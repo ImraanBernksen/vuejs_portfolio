@@ -4,7 +4,7 @@
        <div class="lead" id="fill">
        <!-- <h4 class="text-center">Fill in:</h4> -->
        <form name="contact-form" action="https://formspree.io/f/xwkzrbbv" method="POST">
-       <div class="row mx-4">
+       <div class="row mx-4 text-white">
            <div class="col-6">
              <label for="name">Name:</label>
              <input type="text" name="name" class="form-control" id="cards_" placeholder="Name" aria-label="Name">
@@ -26,7 +26,7 @@
                <textarea class="form-control" name="message" id="cards_" placeholder="Write something..." rows="3"></textarea>
              </div>
              <div class="mx-auto">
-             <button type="submit" class="btn btn-outline-dark" id="cards_">Submit</button>
+             <button type="submit" class="btn btn-outline-dark text-white" id="cards_">Submit</button>
             </div>
             </div>
        </form>
