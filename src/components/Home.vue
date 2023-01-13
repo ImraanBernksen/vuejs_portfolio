@@ -18,10 +18,26 @@
               </div>
             </div>
           </div>
-            <p class="lead text-dark text-center" id="myName">Hello, My name is Mogamad Imraan Bernksen</p>
+            <p class="lead text-white text-center" id="myName">Hello, My name is</p>
+            <div class="waviy">
+             <span style="--i:1">I</span>
+             <span style="--i:2">M</span>
+             <span style="--i:3">R</span>
+             <span style="--i:4">A</span>
+             <span style="--i:5">A</span>
+             <span style="--i:6">N</span>
+             <span style="--i:7">B</span>
+             <span style="--i:8">E</span>
+             <span style="--i:9">R</span>
+             <span style="--i:10">N</span>
+             <span style="--i:11">K</span>
+             <span style="--i:12">S</span>
+             <span style="--i:13">E</span>
+             <span style="--i:14">N</span>
+            </div>
           <div class="home_extra">
-            <a href="../assets/Imraan's CV.docx" download target="_blank" class="btn btn-dark text-white">Download CV</a>
-            <a href="/about" class="btn btn-dark text-white">More info</a>
+            <a href="../assets/Imraan's CV.docx" download target="_blank" class="btn btn text-dark bg-white" id="btn_">Download CV</a>
+            <a href="/about" class="btn btn text-dark bg-white" id="btn_">More info</a>
           </div>
         </div>
   </div>

@@ -4,7 +4,6 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Nanum+Pen+Script&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 
 *,
@@ -17,8 +16,8 @@
 
 :root {
     --primaryColor: blue;
-    --secondaryColor: black;
-    --alternativeColor: black;
+    --secondaryColor: blue;
+    --alternativeColor: white;
     --mainBoxShadow: .5vw .5vw .5vw var(--alternativeColor);
     --landingPage : .5vw 1vw .5vw var(--gray);
     --activeLink: lime;
@@ -34,7 +33,8 @@ a:visited {
 a:hover {
     font-size: 30px;
     color: var(--secondaryColor);
-    background-color: gold;
+    background-color: white;
+    border-radius: 10px;
 }
 a:active {
     color: var(--primaryColor);
@@ -81,7 +81,7 @@ h1, h2, h3, h5, h6 {
     text-align: center;
     padding-bottom: 20px;
     padding: 20px;
-    color: black;
+    color: white;
 }
 
 h4 {
@@ -198,7 +198,7 @@ h4 {
 }
 
 .flip-box-back {
-    background-color: grey;
+    background-color: lightblue;
     color: black;
     transform: rotateY(180deg);
     border-radius: 50%;
@@ -224,6 +224,7 @@ h4 {
 
 #myName {
     padding-top: 30px;
+    font-size: 80px;
 }
 
 .home_extra {
@@ -231,7 +232,7 @@ h4 {
 }
 
 .form-label {
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 #cards_ {
@@ -246,16 +247,46 @@ h4 {
     box-shadow: 1px 5px;
 }
 
-/* main {
+#about1_ {
+    border: 1px solid;
+    box-shadow: 5px 10px;
+    padding: 20px;
+}
+
+main {
     background: url(https://i.postimg.cc/FRk6kst9/wallpaper3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-} */
+    background-attachment: fixed;
+    width: 100%;
+}
 
 @media screen and (min-width:300px) {
     body {
     width: 100%;
     }
 }
+
+.waviy {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 100px;
+    color: blue;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
 </style>

@@ -7,26 +7,26 @@
        <div class="row mx-4">
            <div class="col-6">
              <label for="name">Name:</label>
-             <input type="text" name="name" class="form-control" placeholder="Name" aria-label="Name">
+             <input type="text" name="name" class="form-control" id="cards_" placeholder="Name" aria-label="Name">
            </div>
            <div class="col-6">
                <label for="name">Surname:</label>
-             <input type="text" name="name" class="form-control" placeholder="Surname" aria-label="Surname">
+             <input type="text" name="name" class="form-control" id="cards_" placeholder="Surname" aria-label="Surname">
            </div>
            <div class="col-6">
                <label for="number" class="form-label">Cellphone number:</label>
-               <input type="text" name="name" class="form-control" placeholder="Cellphone number" aria-label="Cellphone number">
+               <input type="text" name="name" class="form-control" id="cards_" placeholder="Cellphone number" aria-label="Cellphone number">
              </div>
              <div class="col-6">
                <label for="email" class="form-label">Email address:</label>
-               <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+               <input type="email" name="email" class="form-control" id="cards_" placeholder="name@example.com">
              </div>
              <div class="mb-3">
                <label for="message" class="form-label">Message:</label>
-               <textarea class="form-control" name="message" id="exampleFormControlTextarea1" placeholder="Write something..." rows="3"></textarea>
+               <textarea class="form-control" name="message" id="cards_" placeholder="Write something..." rows="3"></textarea>
              </div>
              <div class="mx-auto">
-             <button type="submit" class="btn btn-outline-dark">Submit</button>
+             <button type="submit" class="btn btn-outline-dark" id="cards_">Submit</button>
             </div>
             </div>
        </form>
