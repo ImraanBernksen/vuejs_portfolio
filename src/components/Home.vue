@@ -27,15 +27,13 @@
              <span style="--i:5">M</span>
              <span style="--i:6">A</span>
              <span style="--i:7">D</span>
+             <span style="--i:8">I</span>
+            <span style="--i:9">M</span>
+            <span style="--i:10">R</span>
+            <span style="--i:11">A</span>
+            <span style="--i:12">A</span>
+            <span style="--i:13">N</span>
             </div>
-            <div class="waviy">
-              <span style="--i:8">I</span>
-             <span style="--i:9">M</span>
-             <span style="--i:10">R</span>
-             <span style="--i:11">A</span>
-             <span style="--i:12">A</span>
-             <span style="--i:13">N</span>
-          </div>
             <div class="waviy">
             <span style="--i:14">B</span>
             <span style="--i:15">E</span>

@@ -229,6 +229,7 @@ h4 {
 
 .home_extra {
     text-align: center;
+    padding-top: 50px;
 }
 
 .form-label {
@@ -262,7 +263,7 @@ main {
     width: 100%;
 }
 
-@media screen and (min-width:300px) {
+@media screen and (max-width:300px) {
     body {
     width: 100%;
     }
@@ -273,7 +274,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    font-family: 'Gemunu Libre', sans-serif;
   }
   .waviy span {
     position: relative;
