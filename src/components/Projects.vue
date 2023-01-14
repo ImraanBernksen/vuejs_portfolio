@@ -3,12 +3,12 @@
     <h2><ins>Projects</ins></h2>
     <div class="lead" id="projectlinks">
       <div class="row">
-      <div class="card h-100" id="cards_" v-for="item in arr" :key="item" style="width: 30rem; margin: auto;">
+      <div class="card h-100" id="cards_" v-for="item in arr" :key="item" style="width: 30rem; margin: auto; background-color: transparent;">
         <img :src="item.imgSrc" loading="lazy" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title text-dark">{{item.projectName}}</h5>
-          <a :href="item.linkOne" target="_blank" class="btn btn text-dark" id="btn_">GitHub</a>
-          <a :href="item.linkTwo" target="_blank" class="btn btn text-dark" id="btn_">Netlify</a>
+          <h4 class="card-title">{{item.projectName}}</h4>
+          <a :href="item.linkOne" target="_blank" class="btn btn text-white" id="btn_">GitHub</a>
+          <a :href="item.linkTwo" target="_blank" class="btn btn text-white" id="btn_">Netlify</a>
         </div>
       </div>
     </div>

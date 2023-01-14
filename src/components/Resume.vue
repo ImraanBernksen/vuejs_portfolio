@@ -5,8 +5,8 @@
         <div class="col-lg-4 p-4">
             <div class="card" id="cards_" v-for="item in resume" :key="item" style="height: 25rem; width: 25rem; margin: auto;">
               <div class="card-body">
-                <h4 class="card-title text-dark">{{item.headingText1}}</h4>
-                        <p class="card-text lead bg-white text-dark-dark about-par">
+                <h4 class="card-title">{{item.headingText1}}</h4>
+                        <p class="card-text lead about-par">
                           Name: {{item.Name}}<br>
                           Surname: {{item.Surname}}<br>
                           Birth: {{item.Birth}}<br>
@@ -20,8 +20,8 @@
         <div class="col-lg-4 p-4">
             <div class="card" id="cards_" v-for="item in resume" :key="item" style="height: 25rem; width: 25rem; margin: auto;">
               <div class="card-body">
-                <h4 class="card-title text-dark">{{item.headingText2}}</h4>
-                <p class="card-text lead bg-white text-dark-dark about-par">
+                <h4 class="card-title">{{item.headingText2}}</h4>
+                <p class="card-text lead about-par">
                   {{item.resumeText1}}<br><br>
                   {{item.resumeText2}}<br>
                 </p>
@@ -31,8 +31,8 @@
         <div class="col-lg-4 p-4">
             <div class="card" id="cards_" v-for="item in resume" :key="item" style="height: 25rem; width: 25rem; margin: auto;">
               <div class="card-body">
-                <h4 class="card-title text-dark">{{item.headingText3}}</h4>
-                <p class="card-text lead bg-white text-dark-dark about-par">
+                <h4 class="card-title">{{item.headingText3}}</h4>
+                <p class="card-text lead about-par">
                   {{item.resumeText3}}<br>
                   {{item.resumeText4}}<br>
                   {{item.resumeText5}}<br>

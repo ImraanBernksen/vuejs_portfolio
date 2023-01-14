@@ -88,7 +88,7 @@ h4 {
     text-align: center;
     padding-bottom: 20px;
     padding: 20px;
-    color: darkblue;
+    color: gold;
 }
 
 #about {
@@ -198,7 +198,7 @@ h4 {
 }
 
 .flip-box-back {
-    background-color: lightblue;
+    background-color: gold;
     color: black;
     transform: rotateY(180deg);
     border-radius: 50%;
@@ -224,7 +224,7 @@ h4 {
 
 #myName {
     padding-top: 30px;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .home_extra {
@@ -255,12 +255,16 @@ h4 {
 }
 
 main {
-    background: url(https://i.postimg.cc/FRk6kst9/wallpaper3.jpg);
+    background: url(https://i.postimg.cc/DzDVmKRH/wallpaper4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     width: 100%;
+}
+
+label {
+    color: gold;
 }
 
 @media screen and (max-width:300px) {
@@ -280,7 +284,7 @@ main {
     position: relative;
     display: inline-block;
     font-size: 80px;
-    color: blue;
+    color: gold;
     text-transform: uppercase;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))

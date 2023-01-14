@@ -2,11 +2,11 @@
     <div id="testimonial">
         <h2><ins>Testimonials</ins></h2>
         <div class="row">
-            <div class="card" id="cards_" v-for="item in arr" :key="item" style="height: 36rem; width: 30rem; margin: auto;">
+            <div class="card" id="cards_" v-for="item in arr" :key="item" style="height: 38rem; width: 30rem; margin: auto; background-color: transparent;">
               <img :src="item.imgSrc" loading="lazy" class="card-img-top" alt="pic1">
               <div class="card-body">
-                <h4 class="card-title text-dark">{{item.personName}}</h4>
-                <p class="card-text">{{item.infoText}}</p>
+                <h4 class="card-title">{{item.personName}}</h4>
+                <p class="card-text text-white" style="font-size: large;">{{item.infoText}}</p>
               </div>
             </div>
         </div>

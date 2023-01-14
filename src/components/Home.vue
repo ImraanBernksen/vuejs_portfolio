@@ -27,26 +27,27 @@
              <span style="--i:5">M</span>
              <span style="--i:6">A</span>
              <span style="--i:7">D</span>
+             
              <span style="--i:8">I</span>
-            <span style="--i:9">M</span>
-            <span style="--i:10">R</span>
-            <span style="--i:11">A</span>
-            <span style="--i:12">A</span>
-            <span style="--i:13">N</span>
+             <span style="--i:9">M</span>
+             <span style="--i:10">R</span>
+             <span style="--i:11">A</span>
+             <span style="--i:12">A</span>
+             <span style="--i:13">N</span>
             </div>
             <div class="waviy">
-            <span style="--i:14">B</span>
-            <span style="--i:15">E</span>
-            <span style="--i:16">R</span>
-            <span style="--i:17">N</span>
-            <span style="--i:18">K</span>
-            <span style="--i:19">S</span>
-            <span style="--i:20">E</span>
-            <span style="--i:21">N</span>
-          </div>
+             <span style="--i:14">B</span>
+             <span style="--i:15">E</span>
+             <span style="--i:16">R</span>
+             <span style="--i:17">N</span>
+             <span style="--i:18">K</span>
+             <span style="--i:19">S</span>
+             <span style="--i:20">E</span>
+             <span style="--i:21">N</span>
+            </div>
           <div class="home_extra">
-            <a href="../assets/Imraan's CV.docx" download target="_blank" class="btn btn text-dark bg-white" id="btn_">Download CV</a>
-            <a href="/about" class="btn btn text-dark bg-white" id="btn_">More info</a>
+            <a href="../assets/Imraan's CV.docx" download target="_blank" class="btn btn text-white" id="btn_">Download CV</a>
+            <a href="/about" target="_blank" class="btn btn text-white" id="btn_">More info</a>
           </div>
         </div>
   </div>

@@ -26,7 +26,7 @@
                <textarea class="form-control" name="message" id="cards_" placeholder="Write something..." rows="3"></textarea>
              </div>
              <div class="mx-auto">
-             <button type="submit" class="btn btn-outline-dark text-white" id="cards_">Submit</button>
+             <button type="submit" class="btn btn text-white" id="btn_">Submit</button>
             </div>
             </div>
        </form>

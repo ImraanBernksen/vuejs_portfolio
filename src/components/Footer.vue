@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <p>Copyright &copy; 2023</p>
+        <p class="text-white">Copyright &copy; 2023</p>
     </footer>
 </template>
 <script>
