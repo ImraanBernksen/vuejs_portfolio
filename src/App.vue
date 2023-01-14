@@ -278,7 +278,7 @@ main {
   .waviy span {
     position: relative;
     display: inline-block;
-    font-size: 100px;
+    font-size: 80px;
     color: blue;
     text-transform: uppercase;
     animation: flip 2s infinite;

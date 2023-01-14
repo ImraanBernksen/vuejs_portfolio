@@ -20,21 +20,32 @@
           </div>
             <p class="lead text-white text-center" id="myName">Hello, My name is</p>
             <div class="waviy">
-             <span style="--i:1">I</span>
-             <span style="--i:2">M</span>
-             <span style="--i:3">R</span>
+             <span style="--i:1">M</span>
+             <span style="--i:2">O</span>
+             <span style="--i:3">G</span>
              <span style="--i:4">A</span>
-             <span style="--i:5">A</span>
-             <span style="--i:6">N</span>
-             <span style="--i:7">B</span>
-             <span style="--i:8">E</span>
-             <span style="--i:9">R</span>
-             <span style="--i:10">N</span>
-             <span style="--i:11">K</span>
-             <span style="--i:12">S</span>
-             <span style="--i:13">E</span>
-             <span style="--i:14">N</span>
+             <span style="--i:5">M</span>
+             <span style="--i:6">A</span>
+             <span style="--i:7">D</span>
             </div>
+            <div class="waviy">
+              <span style="--i:8">I</span>
+             <span style="--i:9">M</span>
+             <span style="--i:10">R</span>
+             <span style="--i:11">A</span>
+             <span style="--i:12">A</span>
+             <span style="--i:13">N</span>
+          </div>
+            <div class="waviy">
+            <span style="--i:14">B</span>
+            <span style="--i:15">E</span>
+            <span style="--i:16">R</span>
+            <span style="--i:17">N</span>
+            <span style="--i:18">K</span>
+            <span style="--i:19">S</span>
+            <span style="--i:20">E</span>
+            <span style="--i:21">N</span>
+          </div>
           <div class="home_extra">
             <a href="../assets/Imraan's CV.docx" download target="_blank" class="btn btn text-dark bg-white" id="btn_">Download CV</a>
             <a href="/about" class="btn btn text-dark bg-white" id="btn_">More info</a>
